@@ -26,6 +26,19 @@
   grid-column: span 2;
 }
 
+.travel-packages.payments .content-container .image-gallery .image.first {
+  background: url(../img/gallery-1.jpg) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.second {
+  background: url(../img/gallery-2.jpg) no-repeat;
+  background-size: cover;
+}
+.travel-packages.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/gallery-3.jpg) no-repeat;
+  background-size: cover;
+}
+
 @media screen and (min-width: 768px) {
   .image.first {
     background: url(../img/payments-tablet-bag.jpg) no-repeat;
@@ -39,6 +52,19 @@
 
   .image.thirdy {
     background: url(../img/payments-tablet-person.jpg) no-repeat;
+    background-size: cover;
+  }
+
+   .travel-packages.payments .content-container .image-gallery .image.first {
+    background: url(../img/gallery-1-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.second {
+    background: url(../img/gallery-2-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/gallery-3-tablet.jpg) no-repeat;
     background-size: cover;
   }
 }
