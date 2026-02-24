@@ -74,11 +74,10 @@ section.hero, section.bottom-hero{
 }
 
 .content-title {
-  font-size: 20px;
+  font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0 0 24px;
 }
-
 .content-text {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -123,7 +122,7 @@ width: 648px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
 
   section {
   width: 1200px;
